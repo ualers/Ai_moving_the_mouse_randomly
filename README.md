@@ -1,4 +1,4 @@
-# ARTIFICIAL_INTELIGENT_MOVIMENT_MOUSE
+# ARTIFICIAL INTELIGENT MOVIMENT MOUSE
 
 This is an artificial intelligence for moving the mouse  
 
