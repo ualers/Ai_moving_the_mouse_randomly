@@ -5,6 +5,7 @@ This is an artificial intelligence for moving the mouse
 
 initial version containing 1,000,000 movement variations
 
+
 main use case:
 more humanized automations
 
