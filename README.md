@@ -11,8 +11,20 @@ more humanized automations
 
 ------------------basic use with pyautogui-------------------------
         
-        
-        
+        num_amostras = 1  
+        Lista_de_movi = {
+                pyautogui.easeInQuad: "Ease In Quad",
+                pyautogui.easeOutQuad: "Ease Out Quad",
+                pyautogui.easeInOutQuad: "Ease In Out Quad",
+                pyautogui.easeInCubic: "Ease In Cubic", 
+                pyautogui.easeOutCubic: "Ease Out Cubic", 
+                pyautogui.easeInOutCubic: "Ease In Out Cubic", 
+                pyautogui.easeInSine: "Ease In Sine", 
+                pyautogui.easeOutSine: "Ease Out Sine", 
+                pyautogui.easeInOutSine: "Ease In Out Sine"
+
+        }
+
         diretorio_script = os.path.dirname(os.path.abspath(__file__))
         modelo_carregado = load_model(os.path.join(diretorio_script, 'AIMM_V1.keras'))
         
