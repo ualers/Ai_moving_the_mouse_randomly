@@ -8,6 +8,8 @@ initial version containing 1,000,000 movement variations
 main use case:
 more humanized automations
 
+
+------------------basic use with pyautogui-------------------------
         
         
         
