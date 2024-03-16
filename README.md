@@ -77,8 +77,9 @@ You can also train the model with greater movement variations in AIMM.PY
         n_movimentos = 1000000
         
         
-        x = np.random.normal(loc=512, scale=300, size=n_movimentos).clip(0, 1024)
-        y = np.random.normal(loc=384, scale=200, size=n_movimentos).clip(0, 768)
+        x = np.random.normal(loc=512, scale=300, size=n_movimentos).clip(0, 1024) # movements made for screens in 1024 x 768 resolution
+        y = np.random.normal(loc=384, scale=200, size=n_movimentos).clip(0, 768) # movements made for screens in 1024 x 768 resolution
+        
         velocidade = np.random.uniform(low=0.1, high=1.0, size=n_movimentos)
         cliques = np.random.choice([0, 1], size=n_movimentos, p=[0.7, 0.3])
         dados = pd.DataFrame({'x': x, 'y': y, 'velocidade': velocidade, 'clique': cliques})
@@ -104,6 +105,20 @@ You can also train the model with greater movement variations in AIMM.PY
         history = model.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test), batch_size=64)
         model.save('AIMM_V1.kerass')
         
+
+## 📚Resolution 
+you can train new models for new resolutions in: 
+example 
+
+        x = np.random.normal(loc=512, scale=300, size=n_movimentos).clip(0, 1280) # notice that we changed it to 1280 x 1024
+        y = np.random.normal(loc=384, scale=200, size=n_movimentos).clip(0, 1024) # notice that we changed it to 1280 x 1024
+
+notice that now the model will be trained to 1280 x 1024 resolution
+
+
+
+
+  
 ### 📚Powerful model
 If you create a super powerful model of 100,000,000,000 don't hesitate to share :} 👋
 
