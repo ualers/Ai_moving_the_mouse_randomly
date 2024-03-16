@@ -3,7 +3,7 @@
 📚This is an artificial intelligence for moving the mouse  
 
 
-initial version containing 1,000,000 movement variations
+Initial version contains 1,000,000 motion variations for 1024 x 768 resolution
 
 ## AIMM_V1.keras
 
@@ -107,7 +107,8 @@ You can also train the model with greater movement variations in AIMM.PY
         
 
 ## 📚Resolution 
-you can train new models for new resolutions in: 
+you can train a new model for the resolution you want
+
 example 
 
         x = np.random.normal(loc=512, scale=300, size=n_movimentos).clip(0, 1280) # notice that we changed it to 1280 x 1024
