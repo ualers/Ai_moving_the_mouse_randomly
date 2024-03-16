@@ -5,12 +5,13 @@ This is an artificial intelligence for moving the mouse
 
 initial version containing 1,000,000 movement variations
 
+## AIMM_V1.keras
 
 main use case:
 more humanized automations
 
 
-------------------basic usage of template v1 with pyautogui-------------------------
+------------------basic use of the v1 model with pyautogui for movement-------------------------
         
         num_amostras = 1  
         Lista_de_movi = {
