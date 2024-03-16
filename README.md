@@ -1,6 +1,6 @@
 # Artificial intelligence moving the mouse 
 
-This is an artificial intelligence for moving the mouse  
+📚This is an artificial intelligence for moving the mouse  
 
 
 initial version containing 1,000,000 movement variations
@@ -47,15 +47,15 @@ more humanized automations
                 pyautogui.moveTo(x=x_tela, y=y_tela, duration=rando_duracao, tween=funcao_aleatoria)
                 time.sleep(5)
 
-## Sample 
+## 📚Sample 
 You can also choose the number of mouse movement samples requested at a time
-## example
+## 📚Example
 num_amostras = 2 
 
-## Customize 
+## 📚Customize 
 
 You can also customize pyautogui to move and click, be creative :}
-# Training new model
+# 📚Training new model
 
 You can also train the model with greater movement variations in AIMM.PY
         
@@ -104,8 +104,8 @@ You can also train the model with greater movement variations in AIMM.PY
         history = model.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test), batch_size=64)
         model.save('AIMM_V1.kerass')
         
-
-
+### 📚Powerful model
+If you create a super powerful model of 100,000,000,000 don't hesitate to share :} 👋
 
 
 
