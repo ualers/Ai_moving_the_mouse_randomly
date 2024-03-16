@@ -1,6 +1,6 @@
 ### Artificial intelligence for moving the mouse ###
 
-
+## libs ###
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -8,10 +8,16 @@ from sklearn.preprocessing import MinMaxScaler
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
+
+# defining how many cpu to use in training
 num_cores = 4
 tf.config.threading.set_intra_op_parallelism_threads(num_cores)
 tf.config.threading.set_inter_op_parallelism_threads(num_cores)
+
+# defining the desired number of mouse movement variations
 n_movimentos = 1000000
+
+
 x = np.random.normal(loc=512, scale=300, size=n_movimentos).clip(0, 1024)
 y = np.random.normal(loc=384, scale=200, size=n_movimentos).clip(0, 768)
 velocidade = np.random.uniform(low=0.1, high=1.0, size=n_movimentos)
