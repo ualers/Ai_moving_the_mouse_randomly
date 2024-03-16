@@ -1,4 +1,4 @@
-# ARTIFICIAL intelligence moving the mouse 
+# Artificial intelligence moving the mouse 
 
 This is an artificial intelligence for moving the mouse  
 
