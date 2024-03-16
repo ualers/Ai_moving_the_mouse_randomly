@@ -52,8 +52,10 @@ You can also choose the number of mouse movement samples requested at a time
 ## example
 num_amostras = 2 
 
+## Customize 
 
-# #Training
+You can also customize pyautogui to move and click, be creative :}
+# Training new model
 
 You can also train the model with greater movement variations in AIMM.PY
         
