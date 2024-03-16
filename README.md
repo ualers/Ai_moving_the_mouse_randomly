@@ -76,7 +76,7 @@ You can also train the model with greater movement variations in AIMM.PY
         # defining the desired number of mouse movement variations
         n_movimentos = 1000000
         
-        
+        # Resolution
         x = np.random.normal(loc=512, scale=300, size=n_movimentos).clip(0, 1024) # movements made for screens in 1024 x 768 resolution
         y = np.random.normal(loc=384, scale=200, size=n_movimentos).clip(0, 768) # movements made for screens in 1024 x 768 resolution
         
