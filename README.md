@@ -11,7 +11,7 @@ main use case:
 more humanized automations
 
 
-------------------basic use of the v1 model with pyautogui for movement-------------------------
+------------------Average usage of model v1 with pyautogui for motion only-------------------------
         
         num_amostras = 1  
         Lista_de_movi = {
