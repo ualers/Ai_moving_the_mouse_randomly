@@ -44,10 +44,13 @@ more humanized automations
                 funcao_aleatoria = random.choice(list(Lista_de_movi.keys()))
                 frase_correspondente = Lista_de_movi[funcao_aleatoria]
                 print(frase_correspondente)
-                rando_tween = random.randint(2, 3)
                 pyautogui.moveTo(x=x_tela, y=y_tela, duration=rando_duracao, tween=funcao_aleatoria)
                 time.sleep(5)
 
+## Sample 
+You can also choose the number of mouse movement samples requested at a time
+## example
+num_amostras = 2 
 
 
 # #Training
