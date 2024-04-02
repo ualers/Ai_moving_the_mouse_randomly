@@ -9,6 +9,8 @@ main use case:more humanized automations
 - [AIMM_V0_0_1_fine_tuned_with_new_data](#AIMM_V0_0_1_fine_tuned_with_new_data)
 - [AIMM_V0_0_2](#AIMM_V0_0_2)
 
+![example](gif/2024-04-02 10-34-19.gif)
+
 ## 📚Sample 
 You can also choose the number of mouse movement samples requested at a time
 ## 📚Example
