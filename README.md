@@ -71,10 +71,11 @@ You can also customize pyautogui to move and click, be creative :}
 # 📚Training new models
 You can also train the model with greater movement variations
 # 📚wide variety of models
-- AIMM_V0_0_1
-- AIMM_V0_0_1_fine_tuned
-- AIMM_V_0_0_2
-- AIMM_V_0_0_3_FullyConnected
+- AIMM_V0_0_1 (Available for download and use)
+- AIMM_V0_0_1_fine_tuned (Available for download and use)
+- AIMM_V_0_0_2 (in training)
+- AIMM_V_0_0_3 (in training)
+- 
 ## AIMM_V0_0_1
 Initial version contains 1,000,000 motion variations for 1024 x 768 resolution
 
