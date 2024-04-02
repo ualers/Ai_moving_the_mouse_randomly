@@ -235,10 +235,11 @@ notice that now the model will be trained to 1280 x 1024 resolution
   
 #
 #
-
+### 📚Pool request
+any pool request is welcome :}
   
 ### 📚Powerful model
-If you create a super powerful model of 100,000,000,000 don't hesitate to share :} 👋
+If you create a super powerful model with 100,000,000,000 variations and a giant neural network, don't hesitate to share :} 👋
 
 
 
