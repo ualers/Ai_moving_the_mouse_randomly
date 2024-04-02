@@ -1,6 +1,10 @@
 # 🖱️Artificial intelligence moving the mouse Randomly
 
 📚This is an artificial intelligence for moving the mouse Randomly
+## Índice
+- [AIMM-V1](#-AIMM-V1)
+- [Node-farm](#Node-farm-ad-twitch)
+
 
 #
 * **Versao**: 0.0.2                                                                        
@@ -76,7 +80,7 @@ Updates da versao 0.0.2:
 
 Initial version contains 1,000,000 motion variations for 1024 x 768 resolution
 
-## AIMM_V1.keras
+## AIMM_V1
 
 main use case:
 more humanized automations
