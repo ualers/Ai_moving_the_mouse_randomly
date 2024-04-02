@@ -68,7 +68,7 @@ main use case:more humanized automations
 
 ## 📚Customize 
 You can also customize pyautogui to move and click, be creative :}
-# 📚Training news models
+# 📚Training new models
 You can also train the model with greater movement variations
 # 📚wide variety of models
 - AIMM_V0_0_1
