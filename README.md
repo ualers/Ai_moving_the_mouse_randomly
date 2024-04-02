@@ -1,35 +1,52 @@
 # 🖱️Artificial intelligence moving the mouse Randomly
 
 📚This is an artificial intelligence for moving the mouse Randomly
+main use case:more humanized automations
+
 ## Índice
+- [Example](#Example)
 - [AIMM_V0_0_1](#AIMM_V0_0_1)
 - [AIMM_V0_0_1_fine_tuned_with_new_data](#AIMM_V0_0_1_fine_tuned_with_new_data)
 - [AIMM_V0_0_2](#AIMM_V0_0_2)
 
-Initial version contains 1,000,000 motion variations for 1024 x 768 resolution
+## 📚Sample 
+You can also choose the number of mouse movement samples requested at a time
+## 📚Example
+num_amostras = 2 
+## 📚Customize 
+You can also customize pyautogui to move and click, be creative :}
+# 📚Training new model
+You can also train the model with greater movement variations
 
-## AIMM_V0_0_1
 
-main use case:
-more humanized automations
-
-
+## Example
 ------------------Average usage of model v1 with pyautogui for motion only-------------------------
+
+
+ ```
+        import pyautogui
+        import os
+        import time
+        import random
+        import numpy as np
+        import pandas as pd
+        import tensorflow as tf
+        from tensorflow.keras.models import load_model
         
         num_amostras = 1  
         Lista_de_movi = {
-                pyautogui.easeInQuad: "Ease In Quad",
-                pyautogui.easeOutQuad: "Ease Out Quad",
-                pyautogui.easeInOutQuad: "Ease In Out Quad",
-                pyautogui.easeInCubic: "Ease In Cubic", 
-                pyautogui.easeOutCubic: "Ease Out Cubic", 
-                pyautogui.easeInOutCubic: "Ease In Out Cubic", 
-                pyautogui.easeInSine: "Ease In Sine", 
-                pyautogui.easeOutSine: "Ease Out Sine", 
-                pyautogui.easeInOutSine: "Ease In Out Sine"
-
+            pyautogui.easeInQuad: "Ease In Quad",
+            pyautogui.easeOutQuad: "Ease Out Quad",
+            pyautogui.easeInOutQuad: "Ease In Out Quad",
+            pyautogui.easeInCubic: "Ease In Cubic", 
+            pyautogui.easeOutCubic: "Ease Out Cubic", 
+            pyautogui.easeInOutCubic: "Ease In Out Cubic", 
+            pyautogui.easeInSine: "Ease In Sine", 
+            pyautogui.easeOutSine: "Ease Out Sine", 
+            pyautogui.easeInOutSine: "Ease In Out Sine"
+        
         }
-
+        
         diretorio_script = os.path.dirname(os.path.abspath(__file__))
         modelo_carregado = load_model(os.path.join(diretorio_script, 'AIMM_V1.keras'))
         
@@ -41,26 +58,20 @@ more humanized automations
         previsao = modelo_carregado.predict(dados_entrada_simulados)
         print(previsao)
         if previsao > 0.2:
-                x_tela = int(x_simulado[0][0] * pyautogui.size()[0])
-                y_tela = int(y_simulado[0][0] * pyautogui.size()[1])
-                rando_duracao = random.uniform(3, 4)
-                funcao_aleatoria = random.choice(list(Lista_de_movi.keys()))
-                frase_correspondente = Lista_de_movi[funcao_aleatoria]
-                print(frase_correspondente)
-                pyautogui.moveTo(x=x_tela, y=y_tela, duration=rando_duracao, tween=funcao_aleatoria)
-                time.sleep(5)
+            x_tela = int(x_simulado[0][0] * pyautogui.size()[0])
+            y_tela = int(y_simulado[0][0] * pyautogui.size()[1])
+            rando_duracao = random.uniform(3, 4)
+            funcao_aleatoria = random.choice(list(Lista_de_movi.keys()))
+            frase_correspondente = Lista_de_movi[funcao_aleatoria]
+            print(frase_correspondente)
+            pyautogui.moveTo(x=x_tela, y=y_tela, duration=rando_duracao, tween=funcao_aleatoria)
+            time.sleep(5)
+ ```
 
-## 📚Sample 
-You can also choose the number of mouse movement samples requested at a time
-## 📚Example
-num_amostras = 2 
 
-## 📚Customize 
+## AIMM_V0_0_1
+Initial version contains 1,000,000 motion variations for 1024 x 768 resolution
 
-You can also customize pyautogui to move and click, be creative :}
-# 📚Training new model
-
-You can also train the model with greater movement variations in AIMM.PY
         
         ## libs ###
         import numpy as np
