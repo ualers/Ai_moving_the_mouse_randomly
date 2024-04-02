@@ -2,7 +2,7 @@
 
 📚This is an artificial intelligence for moving the mouse Randomly
 ## Índice
-- [AIMM-V1](#AIMM-V1)
+- [AIMM_V1](#AIMM_V1)
 - [Node-farm](#Node-farm-ad-twitch)
 
 
