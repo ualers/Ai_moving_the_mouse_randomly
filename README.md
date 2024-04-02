@@ -14,10 +14,6 @@ main use case:more humanized automations
 ## 📚Simple and quick to use example
 - [Example](#Example)
 ![Alt Text](gif/gif.gif)
-## 📚Customize 
-You can also customize pyautogui to move and click, be creative :}
-# 📚Training new model
-You can also train the model with greater movement variations
 
 
 ## Example
@@ -70,6 +66,15 @@ You can also train the model with greater movement variations
  ```
 
 
+## 📚Customize 
+You can also customize pyautogui to move and click, be creative :}
+# 📚Training news models
+You can also train the model with greater movement variations
+# 📚wide variety of models
+- AIMM_V0_0_1
+- AIMM_V0_0_1_fine_tuned
+- AIMM_V_0_0_2
+- AIMM_V_0_0_3_FullyConnected
 ## AIMM_V0_0_1
 Initial version contains 1,000,000 motion variations for 1024 x 768 resolution
 
