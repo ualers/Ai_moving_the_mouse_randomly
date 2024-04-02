@@ -6,30 +6,6 @@
 - [AIMM_V0_0_1_fine_tuned_with_new_data](#AIMM_V0_0_1_fine_tuned_with_new_data)
 - [AIMM_V0_0_2](#AIMM_V0_0_2)
 
-
-#
-* **Versao**: 0.0.2                                                                        
-***(2/4/2024)***
-Updates da versao 0.0.2:
-* **More variants and new resolution plus a neuron layer**: 10 million variants and 1280 x 1024 resolution and new neuron layer
-  ```
-        AIMM_V2.py
-  ```
-  * **Updates**:
-  ```
-    Neuron Layer
-    LSTM(32, activation='relu', return_sequences=True), 
-
-    10 million variants    
-    n_movimentos = 10000000
-
-    New resolution    
-    x = np.random.normal(loc=512, scale=300, size=n_movimentos).clip(0, 1280)
-    y = np.random.normal(loc=384, scale=200, size=n_movimentos).clip(0, 1024)
-
-   ```
-
-
 Initial version contains 1,000,000 motion variations for 1024 x 768 resolution
 
 ## AIMM_V0_0_1
@@ -149,7 +125,7 @@ notice that now the model will be trained to 1280 x 1024 resolution
   AIMM_V_0_0_1/AIMM_V1_fine_tuned_with_new_data.py
  ```
 
-  ```
+```
     import numpy as np
     import pandas as pd
     from sklearn.model_selection import train_test_split
@@ -188,8 +164,7 @@ notice that now the model will be trained to 1280 x 1024 resolution
     
     # Save the fine-tuned model with the new data
     model.save('AIMM_V1_fine_tuned_with_new_data.keras')
- ```
-#
+```
 #
 # AIMM_V0_0_2
 ```
