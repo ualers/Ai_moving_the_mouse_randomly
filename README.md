@@ -193,7 +193,7 @@ notice that now the model will be trained to 1280 x 1024 resolution
 #
 # AIMM_V0_0_2
 ```
-  AIMM_V_0_0_2.py
+  AIMM_V_0_0_1/AIMM_V_0_0_2.py
 ```
 ```
     ### Artificial intelligence for moving the mouse ###
