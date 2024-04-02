@@ -4,17 +4,16 @@
 main use case:more humanized automations
 
 ## Índice
-- [Example](#Example)
+
 - [AIMM_V0_0_1](#AIMM_V0_0_1)
 - [AIMM_V0_0_1_fine_tuned_with_new_data](#AIMM_V0_0_1_fine_tuned_with_new_data)
 - [AIMM_V0_0_2](#AIMM_V0_0_2)
 - 
-![Alt Text](gif/gif.gif)
 
-## 📚Sample 
-You can also choose the number of mouse movement samples requested at a time
-## 📚Example
-num_amostras = 2 
+
+## 📚Simple and quick to use example
+- [Example](#Example)
+![Alt Text](gif/gif.gif)
 ## 📚Customize 
 You can also customize pyautogui to move and click, be creative :}
 # 📚Training new model
