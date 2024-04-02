@@ -6,7 +6,7 @@
 * **Versao**: 0.0.2                                                                        
 ***(2/4/2024)***
 Updates da versao 0.0.2:
-* **More variants and new resolution plus a neuron layer**: 10 million variants and 1280 x 1024 resolution 
+* **More variants and new resolution plus a neuron layer**: 10 million variants and 1280 x 1024 resolution and new neuron layer
   ```
         AIMM_V2.py
   ```
