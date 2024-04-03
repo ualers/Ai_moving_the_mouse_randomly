@@ -2,7 +2,7 @@
 
 📚This is an artificial intelligence for moving the mouse Randomly
 main use case:more humanized automations
-# 📚wide variety of models
+# 📚Wide variety of models
 - AIMM_V0_0_1 (Available for download and use)
 - AIMM_V0_0_1_fine_tuned (Available for download and use)
 - AIMM_V_0_0_2 (Available for download and use)
