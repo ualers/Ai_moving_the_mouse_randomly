@@ -2,7 +2,11 @@
 
 📚This is an artificial intelligence for moving the mouse Randomly
 main use case:more humanized automations
-
+# 📚wide variety of models
+- AIMM_V0_0_1 (Available for download and use)
+- AIMM_V0_0_1_fine_tuned (Available for download and use)
+- AIMM_V_0_0_2 (Available for download and use)
+- AIMM_V_0_0_3 (in training)
 ## Índice
 
 - [AIMM_V0_0_1](#AIMM_V0_0_1)
@@ -69,11 +73,7 @@ main use case:more humanized automations
 You can also customize pyautogui to move and click, be creative :}
 # 📚Training new models
 You can also train the model with greater movement variations
-# 📚wide variety of models
-- AIMM_V0_0_1 (Available for download and use)
-- AIMM_V0_0_1_fine_tuned (Available for download and use)
-- AIMM_V_0_0_2 (in training)
-- AIMM_V_0_0_3 (in training)
+
 - 
 ## AIMM_V0_0_1 
  
