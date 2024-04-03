@@ -200,7 +200,7 @@ Initial version contains 1,000,000 motion variations for 1024 x 768 resolution
  ```
 
 #
-# AIMM_V0_0_2 (Available for download and use)
+# AIMM_V0_0_2
 
 ```
   Trained Model Location
@@ -253,15 +253,15 @@ Model code
     history = model.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test), batch_size=64)
     model.save('AIMM_V_0_0_2.keras')
 ```
-# AIMM_V_0_0_3 (Available for download and use)
+# AIMM_V_0_0_3
 
 ```
   Trained Model Location
-  AIMM_V_0_0_2/AIMM_V_0_0_2.keras
+  AIMM_V_0_0_3/AIMM_V_0_0_3.keras
 ```
 ```
   Code location
-  AIMM_V_0_0_2/AIMM_V_0_0_2.py
+  AIMM_V_0_0_3/AIMM_V_0_0_3.py
 ```
 Model code
 ```
@@ -303,8 +303,7 @@ Model code
  # Salvar o modelo fine-tuned com os novos dados
  model.save('AIMM_V_0_0_3.keras')
 ```
-
-
+#
 # List of moves for AI
 ```
   List of moves for AI/List_of_moves_for_AI.py
