@@ -7,18 +7,20 @@ main use case:more humanized automations
 - AIMM_V0_0_1_fine_tuned (Available for download and use)
 - AIMM_V_0_0_2 (Available for download and use)
 - AIMM_V_0_0_3 (Available for download and use)
+- AIMM_V_0_0_4 (Available for download and use)
 ## Índice
 
 - [AIMM_V0_0_1](#AIMM_V0_0_1)
 - [AIMM_V0_0_1_fine_tuned_with_new_data](#AIMM_V0_0_1_fine_tuned_with_new_data)
 - [AIMM_V0_0_2](#AIMM_V0_0_2)
 - [AIMM_V_0_0_3](#AIMM_V_0_0_3)
+- [AIMM_V_0_0_4](#AIMM_V_0_0_4)
 - [List-of-moves-for-AI](#List-of-moves-for-AI)
 
 
 ## 📚Simple and quick to use example 
 
-![Alt Text](gif/gif.gif)
+![Alt Text](gif/gif_2.gif)
 
 ## Code Example
 ------------------Average usage of model v1 with pyautogui for motion only-------------------------
