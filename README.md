@@ -16,7 +16,7 @@ main use case:more humanized automations
 - [AIMM_V0_0_2](#AIMM_V0_0_2)
 - [AIMM_V_0_0_3](#AIMM_V_0_0_3)
 - [AIMM_V_0_0_4](#AIMM_V_0_0_4)
-- [AIMM_V_0_0_5](#AIMM_V_0_0_5)
+- [AIMM_V_0_0_5-(in-training)](#AIMM_V_0_0_5-(in-training))
 #
 - [List-of-moves-for-AI](#List-of-moves-for-AI)
 
