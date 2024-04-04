@@ -8,6 +8,7 @@ main use case:more humanized automations
 - AIMM_V_0_0_2 (Available for download and use)
 - AIMM_V_0_0_3 (Available for download and use)
 - AIMM_V_0_0_4 (Available for download and use)
+- AIMM_V_0_0_5 (in training) 
 ## Índice
 
 - [AIMM_V0_0_1](#AIMM_V0_0_1)
@@ -15,6 +16,8 @@ main use case:more humanized automations
 - [AIMM_V0_0_2](#AIMM_V0_0_2)
 - [AIMM_V_0_0_3](#AIMM_V_0_0_3)
 - [AIMM_V_0_0_4](#AIMM_V_0_0_4)
+- [AIMM_V_0_0_5](#AIMM_V_0_0_5)
+#
 - [List-of-moves-for-AI](#List-of-moves-for-AI)
 
 
@@ -418,6 +421,12 @@ Model code
  
  # Salvar o modelo fine-tuned com os novos dados
  new_model.save('AIMM_V_0_0_4.keras')
+
+```
+#
+# AIMM_V_0_0_5 (in training) 
+ # 60 million motion for resolutions 1152x864 1280x1024 1280x720 1280x768
+```
 
 ```
 #
