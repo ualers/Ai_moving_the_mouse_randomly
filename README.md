@@ -8,7 +8,7 @@ main use case:more humanized automations
 - AIMM_V_0_0_2 (Available for download and use)
 - AIMM_V_0_0_3 (Available for download and use)
 - AIMM_V_0_0_4 (Available for download and use)
-- AIMM_V_0_0_5 (in training) 
+- AIMM_V_0_0_5 (in training) 60 million moves 3541 neurons
 ## Índice
 
 - [AIMM_V0_0_1](#AIMM_V0_0_1)
@@ -84,9 +84,9 @@ main use case:more humanized automations
       velocidade_simulada = np.random.rand(num_amostras, 1)  
       dados_entrada_simulados = np.hstack((x_simulado, y_simulado, velocidade_simulada))
       dados_entrada_simulados = dados_entrada_simulados.reshape(num_amostras, 1, 3)
-      modelo_carregado.predict(dados_entrada_simulados)
-      x_tela = int(x_simulado[0][0] * pyautogui.size()[0])
-      y_tela = int(y_simulado[0][0] * pyautogui.size()[1])
+      teste = modelo_carregado.predict(dados_entrada_simulados)
+      x_tela = int(teste[0][0] * pyautogui.size()[0])
+      y_tela = int(teste[0][0] * pyautogui.size()[1])
       rando_duracao = random.uniform(3, 4)
       funcao_aleatoria = random.choice(list(Lista_de_movi_expandida.keys()))
       frase_correspondente = Lista_de_movi_expandida[funcao_aleatoria]
