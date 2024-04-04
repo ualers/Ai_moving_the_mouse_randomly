@@ -84,9 +84,12 @@ main use case:more humanized automations
       velocidade_simulada = np.random.rand(num_amostras, 1)  
       dados_entrada_simulados = np.hstack((x_simulado, y_simulado, velocidade_simulada))
       dados_entrada_simulados = dados_entrada_simulados.reshape(num_amostras, 1, 3)
-      teste = modelo_carregado.predict(dados_entrada_simulados)
-      x_tela = int(teste[0][0] * pyautogui.size()[0])
-      y_tela = int(teste[0][0] * pyautogui.size()[1])
+      teste2 = modelo_carregado.predict(dados_entrada_simulados)
+      testex = teste2 + x_simulado 
+      testey = teste2 + y_simulado
+      print(teste2)
+      x_tela = int(testex[0][0] * pyautogui.size()[0])
+      y_tela = int(testey[0][0] * pyautogui.size()[1])
       rando_duracao = random.uniform(3, 4)
       funcao_aleatoria = random.choice(list(Lista_de_movi_expandida.keys()))
       frase_correspondente = Lista_de_movi_expandida[funcao_aleatoria]
